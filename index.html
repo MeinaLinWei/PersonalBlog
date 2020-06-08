@@ -1,0 +1,295 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="images/favicon.jpeg">
+        <title>Meina's Blog</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+        <link rel="stylesheet" href="stylesheet/index.css" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+        <style>
+            .profile {
+                opacity: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+                border-radius: 50%;
+            }
+
+            .click {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo" aria-label="homepage">Meina's Blog</a>
+            <!-- Navigation Bar -->
+            <nav class="menu-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#section-about" class="nav-link">About</a></li>
+                    <li class="nav-list-item"><a href="#section-resume" class="nav-link">Resume</a></li>
+                    <li class="nav-list-item"><a href="#section-portfolio" class="nav-link">Portfolio</a></li>    
+                </ul>
+            </nav>
+
+            <div class="burger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </header>
+
+        <main>
+            <section class="home-background">
+                <!-- Rounded profile picture -->
+                <div class="container">
+                    <img src="images/Profile_Picture.jpg" class="profile">
+                </div>
+
+                <!-- Bottom social media icon -->
+                <div class="social-media">
+                    <a href="https://github.com/MeinaLinWei" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/meinalw/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:meina.lw12@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </section>
+
+            <section id="section-about">
+                <h2 class="about-title">about</h2>
+
+                <div class="details">
+                    <!-- picture slides from left while text slide from right -->
+                    <img src="images/Me.JPG" class="slide-in from-left">
+                    <p class="slide-in from-right">
+                        Born and raise in Mauritius, I'm a 20 years old Chinese, who is also fluent in spoken and written French, English and Mauritian Creole. 
+                        Living on an island rich in its original fauna and floral, I try to spend my free time in nature. 
+                        Aside from hiking, snorkelling and coding, which are my main hobbies, I am particularly interested in photography, 
+                        shooting most of my pictures on my phone - iPhone 5s or sometimes when possible, I use my parent's camera. 
+                        I mainly use Adobe Lightroom for editing.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <!-- picture slides from right while text slide from text -->
+                    <p class="slide-in from-left">
+                        Mauritius is a tiny tropical African island located in the Indian Ocean, off the east coast of Madagascar. 
+                        The name "Mauritius" comes from Prince Maurice of Nassau of the Dutch Republic, which colonised the island between 
+                        1598 and 1710. It was then colonised by France between 1715 and 1810, until the United Kingdom took over in 1810 and governed until Mauritius 
+                        had its independance in 1968. This explain why Mauritians are fluent in a least two languages(French and English). 
+                        Mauritian Creole comes from the slaves, who were brought to the island. After the abolition of slavery, indentured labourers from India
+                        and Chinese merchants were brought to the island.
+                    </p>
+                    <img src="images/Mauritius.JPG" class="slide-in from-right">
+                </div>
+
+                <div class="details">
+                    <!-- picture slides from left while text slide from right -->
+                    <img src="images/University.JPG" class="slide-in from-left">
+                    <p class="slide-in from-right">
+                        I am currently enrolled at The University of Edinburgh, located in Scotland, UK.
+                        There, I am pursuing a Bachelor of Science (BSc) in Artificial Intelligence and Computer Science (Hons),
+                        and in Fall 2020, I will in my second year of the four years degree programme. Being an international student
+                        living in a muticultural country previously, I was really interested in learning about cultures and histories
+                        from other countries and Edinburgh was a great start.
+                    </p>
+                </div>
+            </section>
+
+            <section id="section-resume">
+                <h2 class="resume-title">resume</h2>
+
+                <p class="break">•</p>
+
+                <p class="resume-contacts">
+                    contacts 
+                    <ul class="contacts-details">
+                        <li><a href="mailto:meina.lw12@gmail.com" target="_blank"><i class="fas fa-envelope"> meina.lw12@gmail.com</i></a>
+                        <li><i class="fas fa-phone-alt"> +44 7367805650</i></li>   
+                        <li><a href="https://github.com/MeinaLinWei" target="_blank"><i class="fab fa-github"> MeinaLinWei</i></a>
+                        <li><a href="https://www.linkedin.com/in/meinalw/" target="_blank"><i class="fab fa-linkedin"> Meina Lin Wei</i></a>
+                    </ul>
+                </p>
+
+                <p class="break">•</p>
+
+                <p class="resume-education">
+                    education
+
+                    <div class="education-details">
+                        <div class="education-left">
+                            <p>The University of Edinburgh</p>
+                            September 2019 - July 2023
+                        </div>
+
+                        <div class="education-right">
+                            <p>Relevant Courses:</p>
+                            <ul class="courses-details">
+                                <li>  Object-Oriented Programming</li>
+                                <li>  Functional Programming</li>
+                                <li>  Computation and Logics</li>
+                                <li>  Cognitive Science</li>
+                                <li>  Introduction to Linear Algebra</li>
+                                <li>  Calculus and its Application</li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+
+                <p class="break">•</p>
+
+                <p class="resume-skills">
+                    skills
+
+                    <div class="skills-details">
+                        <div class="technical">
+                            <p class="skills-titles">Technical Skills</p>
+                            <ul class="programming-details">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>C++</li>
+                                <li>Haskell</li>
+                                <li>Github</li>
+                                <li>Linux</li>
+                            </ul>
+                        </div>
+
+                        <div class="web">
+                            <p class="skills-titles">Web Development</p>
+                            <ul class="web-details">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Sass</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+
+                        <div class="language">
+                            <p class="skills-titles">Language</p>
+                            <p>Fluent in spoken and written:</p>
+                            <ul class="language-details">
+                                <li>English</li>
+                                <li>French</li>
+                            </ul>
+                            <p>Fluent in conversational:</p>
+                            <ul class="language-details">
+                                <li>Mandarin Chinese</li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+
+                <p class="break">•</p>
+
+                <p class="resume-societies">
+                    Socities & Extracurricular Activities
+
+                    <div class="societies-details">
+                        <div class="societies-left">
+                            <a href="https://hyp-ed.com/" target="__blank">HYPED<br>The University of Edinburgh Hyperloop Team<br><br>
+                                <img src="images/HYPED.JPG" style="height: 100px; background-color: black;">
+                            </a>
+                        </div>
+
+                        <div class="societies-right">
+                            <ul class="hyped-details">
+                                <li class="societies-titles">Head of Software (June 2020 - Present)</li>
+                                <li>Coming Soon!</li>
+                                <br>
+
+                                <li class="societies-titles">Software Sensor Technical Lead (February 2020 - Present)</li>
+                                <li>Wrote C++ program for measuring the speed of the hyperloop pod using Infra-Red sensors mounted on each four wheels.</li>
+                                <li>Ensured smooth workflow of the sub-team.</li>
+                                <br>
+
+                                <li class="societies-titles">Software Sensor Engineer (September 2020 - Present)</li>
+                                <li>
+                                    Wrote C++ program to measure the difference in light intensity using 
+                                    photoelectric full spectrum sensors (Keyence) controlled by a BeagleBone Black (BBB). 
+                                </li>
+                                <li>
+                                    The data collected is used to measure the number of reflective stripes the pod has 
+                                    passed in the tunnel and thus calculate the velocity and distance travelled by the 
+                                    Hyperloop pod.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="societies-details">
+                        <div class="societies-left">
+                            <a href="http://hoppers.inf.ed.ac.uk" target="__blank">Hoppers<br>Edinburgh University Women in Informatics<br><br>
+                                <img src="images/Hoppers.JPG" style="height: 150px;">
+                            </a>
+                        </div>
+
+                        <div class="societies-right">
+                            <ul class="hoppers-details">
+                                <li class="societies-titles">Tech Coordinator (April 2020 - Present)</li>
+                                <li>
+                                    Responsible for contacting companies, researchers and other relevant societies regarding 
+                                    technical events such as interview and CV workshops, and academic talks.
+                                </li>
+                                <br>
+                            </ul>
+                            <ul class="hoppers-details">
+                                <li class="societies-titles">Member (September 2019 - Present)</li>
+                                <li>
+                                    Participated in Accenture Women in Tech and Business Industries workshop.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+
+                <div class="resume-pdf">
+                    <a href="Meina Lin Wei.pdf" target="__blank">Download Resume</a>
+                </div>
+
+            </section>
+
+            <section id="section-portfolio">
+                <h2 class="portfolio-title">Portfolio</h2>
+
+                <div class="container">
+                    <div class="gallery">
+                        <figure class="gallery__item gallery__item--1 fade-in">
+                            <img src="images/portfolio/flower0.jpg" alt="Gallery image 1" class="gallery__img">
+                        </figure>
+                        <figure class="gallery__item gallery__item--2 fade-in">
+                            <img src="images/portfolio/capitol0.jpg" alt="Gallery image 2" class="gallery__img">
+                        </figure>
+                        <figure class="gallery__item gallery__item--3 fade-in">
+                            <img src="images/portfolio/montreal0.jpg" alt="Gallery image 3" class="gallery__img">
+                        </figure>
+                        <figure class="gallery__item gallery__item--4 fade-in">
+                            <img src="images/portfolio/bird.jpg" alt="Gallery image 4" class="gallery__img">
+                        </figure>
+                        <figure class="gallery__item gallery__item--5 fade-in">
+                            <img src="images/portfolio/bee.jpg" alt="Gallery image 5" class="gallery__img">
+                        </figure>
+                        <figure class="gallery__item gallery__item--6 fade-in">
+                            <img src="images/portfolio/flower1.jpg" alt="Gallery image 6" class="gallery__img">
+                        </figure>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
