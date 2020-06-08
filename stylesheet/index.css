@@ -104,6 +104,16 @@ header {
     font-family: 'Merriweather', serif;
 }
 
+/*
+.home-background .container:hover .profile {
+    opacity: 0.2;
+}
+  
+.home-background .container:hover .click {
+    opacity: 1;
+}
+*/
+
 .social-media {
     text-align: center;
 }
@@ -251,13 +261,13 @@ header {
 }
 
 .resume-education:after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
+    content: ""; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 170px; /* Change this to whatever width you want. */
-    padding-top: 2px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #59253A; /* This creates the border. Replace black with whatever color you want. */
+    width: 170px;
+    padding-top: 2px;
+    border-bottom: 2px solid #59253A; 
 }
 
 .education-details {
