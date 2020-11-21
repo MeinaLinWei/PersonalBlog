@@ -474,11 +474,11 @@ header {
     transition: 0.3s ease-in-out;
 } 
 
-#section-portfolio {
+#section-gallery {
     background: black;
 }
 
-.portfolio-title {
+.gallery-title {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -495,7 +495,7 @@ header {
 .gallery {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(46, 5vw);
+    grid-template-rows: repeat(64, 5vw);
     grid-gap: 1.5rem; 
 }
   
@@ -548,7 +548,20 @@ header {
     grid-row-end: 46;
 }
 
-   
+.gallery__item--7 {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 46;
+    grid-row-end: 55;
+}
+
+.gallery__item--8 {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 55;
+    grid-row-end: 64;
+}
+
 @media screen and (max-width: 641px) {
     .resume-societies:after {
         content: ""; 
